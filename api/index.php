@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IDEO - EL BOLSON</title>
 </head>
 
 <body>
     <?php
-    echo 'Hello World';
+    function Saludar($nombre, $saludo)
+    {
+        echo "$saludo, como estas $nombre";
+    }
+
+
+    echo Saludar('Eduardo', 'Buenos dias');
     ?>
 </body>
 
