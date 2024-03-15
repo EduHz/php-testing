@@ -5,18 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDEO - EL BOLSON</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
 
 <body>
-    <?php
-    function Saludar($nombre, $saludo)
-    {
-        echo "$saludo, como estas $nombre";
-    }
-
-
-    echo Saludar('Eduardo', 'Buenos dias');
-    ?>
+    <h1 class="titulo">Testeando php</h1>
+    <a href="https://www.google.com.ar">Google</a>
+    <?php include 'saludo.php'; ?>
 </body>
 
 </html>
