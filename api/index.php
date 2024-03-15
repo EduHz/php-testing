@@ -11,7 +11,7 @@
 <body>
     <h1 class="titulo">Testeando php</h1>
     <div class="texto">
-        <a href="rutaPrueba.php">Redireccion a otra ruta</a>
+        <a href="rutaPrueba.html">Redireccion a otra ruta</a>
         <?php include 'saludo.php'; ?>
     </div>
 </body>
