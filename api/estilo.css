@@ -1,3 +1,15 @@
 .titulo {
   color: red;
+  text-align: center;
+}
+.texto {
+  display: flex;
+  font-family: "Strait", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

@@ -10,8 +10,10 @@
 
 <body>
     <h1 class="titulo">Testeando php</h1>
-    <a href="https://www.google.com.ar">Google</a>
-    <?php include 'saludo.php'; ?>
+    <div class="texto">
+        <a href="rutaPrueba.php">Redireccion a otra ruta</a>
+        <?php include 'saludo.php'; ?>
+    </div>
 </body>
 
 </html>
